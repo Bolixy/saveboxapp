@@ -1,0 +1,58 @@
+*{
+    margin: 0
+    ;
+    padding: 0
+    ;
+}
+ul li{
+    font-size: 15px;
+}
+#container{
+    background: url("./saveboxdashorig.jpg");
+}
+#txt_color{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    cursor: pointer;
+}
+li{
+color: white;
+transition: 1s;
+cursor: pointer;
+}
+li:hover{
+    color: skyblue;
+}
+.home{
+    color: skyblue;
+}
+#crypt{
+    color: white;
+    font-weight: bold;
+}
+#para{
+    color: white;
+}
+#button{
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+    transition: 2s;
+}
+#imgcrypt{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#button:hover{
+    background-color: white;
+    color: skyblue;
+}
+
+
+
+
+

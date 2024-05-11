@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up page</title>
+    <link rel="stylesheet" href="./sign-up.css" />
+  </head>
+  <body>
+    <h2>SaveBox</h2>
+    <div class="container">
+      <marquee behavior="scroll" direction="left"
+        >Welcome new user, New users can register their accounts below</marquee
+      >
+      <form action="form" class="form-container">
+        <div class="center">
+          <div class="row">
+            <div class="col">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first-name" required />
+            </div>
+            <div class="col">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last-name" required />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="col">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" required />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label for="country">Country</label>
+              <select name="country" id="country">
+                <option value="opt">select your country</option>
+                <option value="USA">USA</option>
+                <option value="NIGERIA">NIGERIA</option>
+                <option value="GHANA">GHANA</option>
+                <option value="EUROPE">EUROPE</option>
+                <option value="CHINA">CHINA</option>
+              </select>
+            </div>
+            <div class="col">
+              <label for="phone">Contact</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label for="address">Address</label>
+              <input type="text" id="text" name="text" required />
+            </div>
+            <div class="col">
+              <label for="text">city</label>
+              <input type="text" id="text" name="text" required />
+            </div>
+          </div>
+          <p>
+            Already registered? Do not hesitate to
+            <a href="./index.html">sign-in</a> now to proceed to your account.
+            Goodluck!!
+          </p>
+          <div class="row">
+            <button type="submit">
+              <a href="./dashboard.html">Sign Up</a>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

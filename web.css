@@ -1,0 +1,110 @@
+*{
+    margin: 0
+    ;
+    padding: 0
+    ;
+}
+body{
+    width: 100%;
+    height: 100vh;
+background: url(./saveboxsignin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.overall {
+    width: 100%;
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    }
+
+
+
+ .container {
+    background: transparent;;
+    padding: 20px;
+     width: 800px;
+    height: 300px;
+ }
+
+ .container h2 {
+     text-align: center;
+     margin-top: 30px;
+     @import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Nova+Oval&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Glitch+Pop&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+     color:rgb(3, 3, 52);
+     font-size: 50px;
+     font-weight: bolder;
+ }
+.all_form{
+   top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .form-group {
+     margin-bottom: 20px;
+ }
+.owner{
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+    font-size: 20px;
+}
+ .form-group label {
+     display: block;
+     font-weight: 400;
+     margin-bottom: 5px;
+ }
+
+ .form-group input , .submit{
+     width: 500px;
+     padding: 10px;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+     outline: none;
+}
+ .submit{
+     background-color: #007bff;
+     color: #fff;
+     cursor: pointer;
+     width: 320px;
+     margin: auto 100px;
+     margin-top: 30px;
+     margin-bottom: 10px;
+ }
+ .submit a{
+    text-decoration: none;
+    color: #fff;
+ }
+ .form-group input[type="submit"]:hover {
+     background-color: #0056b3;
+ }
+
+ .word{
+    text-align: center;
+ }
+ .word a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+ }
+.label, .word{
+    color: white;
+}
+
+@media (max-width<1000px) {
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+}
+
+
+
+
+

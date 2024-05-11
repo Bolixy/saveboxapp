@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dashboard</title>
+    <link rel="stylesheet" href="./dashboard.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/e64772e577.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="w-full h-full">
+    <div class="w-full h-screen" id="container">
+      <div class="w-full h-[60px] flex items-center justify-center">
+        <nav class="w-[95%] h-full flex items-center justify-between">
+          <h2 class="text-2xl" id="txt_color">SaveBox</h2>
+          <ul class="flex items-center justify-center gap-[50px] pr-[40px]">
+            <li class="home">HOME</li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./services.html">SERVICES</a></li>
+            <li><a href="./why.html">WHY US</a></li>
+            <li>TEAM</li>
+            <li>
+              <span class="mr-[5px]"><i class="fa-regular fa-user"></i></span>
+              <a href="./index.html">LOGOUT</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!--new section amnd also the first-->
+      <section class="w-full h-[580px] flex items-center justify-between">
+        <div
+          class="w-[50%] h-full flex items-start justify-center flex-col pl-5 gap-5"
+        >
+          <h1 class="text-5xl" id="crypt">SAVEBOX<br />DIGITAL</h1>
+          <p id="para">
+            Welcome to SaveBox, your gateway to the future of finance. Explore
+            the dynamic world of digital currencies and blockchain technology
+            with our comprehensive platform. From Bitcoin to Ethereum and
+            beyond, we provide up-to-date news, insightful analysis, and
+            user-friendly tools to empower your crypto journey.
+          </p>
+          <button class="w-[150px] p-3" id="button">READ MORE</button>
+        </div>
+        <div class="w-[45%] h-full">
+          <img src="./cryptmobile img.png" alt="" id="imgcrypt" />
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
